@@ -5,7 +5,7 @@ GET http://localhost:8080
 
 ### GET all Items
 GET http://localhost:8080/supplies
-
+Content-Type: application/json
 {
     "sku": "any-001",
     "name": "Milk Powder",
